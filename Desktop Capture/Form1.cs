@@ -32,7 +32,7 @@ namespace Desktop_Capture
                 comboBox1.SelectedIndex = 0;
             }
 
-            timer1.Interval = 33; // it is set to about 30 frames per seconds change it if you wan't
+            timer1.Interval = 33; // it is set to about 30 frames per seconds change it if you want
             timer1.Tick += timer1_Tick;
         }
 
